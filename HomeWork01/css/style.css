@@ -5,10 +5,12 @@ h1 {
 
 h3 {
 	text-indent: 0px;
+	padding-left: 0px;
 }
 
 ul {
 	text-indent: 0px;
+	padding-left: 5px;
 }
 
 .avatar {
@@ -22,8 +24,11 @@ ul {
 .description {
 	width: 450px;
 	margin: auto;
-	text-align: left;
-	text-indent: 25px;
+	text-align: left; 
+}
+
+.description > div {
+	padding-left: 25px;
 }
 
 .short_description {

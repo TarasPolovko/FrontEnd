@@ -1,0 +1,142 @@
+body {
+	background-color: #f9f9f9;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 60%;
+	height: 100vh;
+	margin: auto;
+	padding-top: 40px; 
+	background-color: #ffffff;
+	border-width: 2px;
+	border-style: none solid;
+	border-color: rgba(0,0,0,0.25);
+}
+
+.remove_white_spaces {
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.menu ul li,
+.content * {
+	display: -moz-inline-stack !important;
+	font-size: 14px;
+	line-height: normal;
+	letter-spacing: normal;
+	zoom: 1;
+}
+
+/* HEADER */
+
+.page_title {
+	width: 90%;
+	margin: auto;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.menu {
+	width: 90%;
+	margin: 40px auto;
+}
+
+.menu>ul>li {
+	display: inline-block;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+.menu>ul>li:first-child {
+	padding: 10px 50px 10px 20px;
+} 
+
+.menu>ul>li:nth-child(3) {	
+	padding: 10px 50px;
+} 
+
+.top_menu {
+	background-color: #575656;
+	color: #ffffff;
+}
+
+.top_menu li:hover {
+	background-color: #3e3e3e;
+	border-width: 1px;
+	border-style: none solid;
+	border-color: white;
+	box-sizing: border-box;
+}
+
+/* MIDDLE PART*/
+
+.content {
+	width: 90%;
+	margin: 20px auto;
+}
+
+.left_menu {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+.left_menu>ul>li {
+	padding: 10px;
+	border-width: 1px 0px 0px 1px;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.25);
+}
+
+.left_menu li:hover {
+	padding-left: 20px;
+}
+
+.article {
+	display: inline-block;
+	width: 70%;
+}
+
+.article_picture {
+	max-width: 100%;
+	height: auto;
+	padding: 45px 90px;
+	border: 1px solid;
+	box-sizing: border-box;
+	border-color: rgba(0,0,0,0.25);
+}
+
+.article_picture>img {
+	width:100%;
+	height:auto;
+}
+
+.article_content {
+	padding: 40px 30px;
+}
+
+/* BOTTOM */
+
+.bottom_menu {
+	background-color: #e1e1e1;
+}
+
+.bottom_menu li:hover {
+	text-decoration: underline;
+}
+
+.experiment {
+	display: inline-block;
+}
+
+.experiment2 {
+	background-color: red;
+	margin-top: 40px;
+}
