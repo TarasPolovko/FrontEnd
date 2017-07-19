@@ -1,0 +1,81 @@
+html {
+}
+
+body {
+	background: black url("../img/UI/background.png") no-repeat top;
+	color: rgb(230, 230, 230);
+	font-size: 12px;
+  	font-family: "Tahoma";
+  	line-height: 1.2;
+}
+
+.wrapper {
+	color: white;
+	margin: auto;
+	width: 63%;
+}
+
+/* HEADER*/
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin:auto;
+	padding: 100px 0px 10px; 
+}
+
+.logo {
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+.logo>p:last-child {
+	font-weight: bold;
+}
+
+.logo_title {
+	z-index: 10;	
+}
+
+.palm_tree {
+	opacity: 0.85;
+	position: absolute;
+	left: 140px;
+	top: -75px;
+}
+
+.contacts>p:first-child {
+	line-height: 2.0;
+	font-weight: bold;
+}
+
+/* CONTENT*/
+.countries {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.countries img {
+	border: 5px solid;
+	border-image: url("../img/UI/ramka.png") 5;
+}
+
+.country_image {
+	/*box-shadow: inset 10px 5px 5px 5px red;*/
+}
+
+.country_tour {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 40px;
+}
+
+/* FOOOTER*/
+.footer {
+	text-align: center;
+	margin: auto;
+	width: 62%;
+}
