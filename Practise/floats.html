@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practise</title>
+	<style>	
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		
+		/* HEADER*/
+		.header {
+			background-color: red;
+		}
+		
+		/* CONTENT */
+		.container {
+			/*overflow: hidden;
+			position: relative;*/
+		}
+
+		.content {
+			background-color: green;
+			float: left;
+			width: 50%;
+		}
+
+		.clear_fix:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+		.news {
+			background-color: black;
+			color: white;
+			float: left;
+			width: 20%;
+		}
+		
+		.sidebar {
+			background-color: yellow;
+			float: left;
+			width: 30%;
+		}
+		
+		/* FOOTER */
+		.footer {
+			background-color: purple;
+			/*clear: both;*/
+		}
+
+		.menu {
+			background-color: green;
+			/*overflow: hidden;
+			position: relative;*/
+		}
+
+		.menu>li {
+			border: 1px solid;
+			float: left;
+			list-style: none;
+			padding: 5px;
+			margin: 5px;
+		}
+	</style>
+</head>
+<body>
+	<!-- <ul class="menu clear_fix">
+		<li><a href="">Пункт 1</a></li>
+		<li><a href="">Пункт 2</a></li>
+		<li><a href="">Пункт 3</a></li>
+		<li><a href="">Пункт 4</a></li>
+		<li><a href="">Пункт 5</a></li>
+	</ul> -->
+
+	<div class="header">Some text is written here by me. Do not mentioned it. It's just for testing</div>
+	<div class="container clear_fix">
+		<div class="sidebar">Some text is written here by me. Do not mentioned it. It's just for testing Some text is written here by me. Do not mentioned it. It's just for testing</div>
+		<div class="content">Some text is written here by me. Do not mentioned it. It's just for testing</div>
+		<div class="news">News news news news news news news news news news news news news news news news news news news news</div>
+	</div>
+	<div class="footer">Some some some some some some some some some some some some some some some some some some some some some some some some some some some some some some some </div>
+</body>

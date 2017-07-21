@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practise</title>
+	<style>	
+		* {
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.parent {
+			background-color: grey;
+			height: 100px;
+			position: relative;
+			margin: auto;
+			width: 1000px;
+			padding: 50px;
+		}
+
+		.box {
+			background-color: green;
+			position: absolute;
+			left: 30px;
+			top: 30px;		
+			z-index: 1;
+		}
+
+		.box2 {
+			background-color: blue;
+			position: absolute;
+			top: 40px;
+			left: 40px;
+			right: 20px;
+		}
+		
+		.menu {
+			margin: 100px;
+		}
+
+		.menu li {
+			border: 1px solid;
+			float: left;
+			margin: 0 20px;
+			list-style: none;
+			padding: 5px;
+			color: black;
+		}
+		
+		.active {
+			position: relative;
+			top: 25px;
+			left: 30px;
+		}
+	</style>
+</head>
+<body>
+
+	<ul class="menu">
+		<li><a href="">Пункт 1</a></li>
+		<li><a href="">Пункт 2</a></li>
+		<li class="active"><a href="">Пункт 3</a></li>
+		<li><a href="">Пункт 4</a></li>
+		<li><a href="">Пункт 5</a></li>
+	</ul>
+
+	<!-- <div class="parent">
+		<p>
+			Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+		</p>
+		<div class="box">
+			Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+		</div>
+
+		<div class="box2">
+			Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+		</div>
+	</div> -->
+</body>

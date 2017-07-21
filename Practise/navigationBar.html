@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practise</title>
+	<style>	
+		.container {
+			font-size: 12px;
+			list-style: none;
+			margin: auto;
+			padding: 0px;
+			text-align: center;
+		}
+
+		.cell {
+			background-color: #bcc4cd;
+			border-radius: 20%;
+			display: inline-block;
+			height: 25px;
+			margin: 1px;
+			vertical-align: middle;
+		}
+
+		.cell>a{
+			display: inline-block;
+			color: white;
+			height: 25px;
+			line-height: 26px;
+			text-decoration: none;
+			vertical-align: middle;
+			width: 25px;
+		}
+
+		.container:before,
+		.container:after {
+			background-color: #ffab1a;
+			border-radius: 20%;
+			color: white;
+			content: "<";
+			display: inline-block;
+			font-weight: bold;
+			height: 25px;
+			line-height: 26px;
+			vertical-align: middle;
+			width: 25px;
+		}
+
+		.container:after {
+			content: ">";
+		}
+	</style>
+</head>
+<body>
+	<ul class="container">
+		<li class="cell"><a href="#">1</a></li>
+		<li class="cell"><a href="#">2</a></li>
+		<li class="cell"><a href="#">3</a></li>
+		<li class="cell"><a href="#">4</a></li>
+		<li class="cell"><a href="#">5</a></li>
+		<li class="cell"><a href="#">6</a></li>
+	</ul>
+</body>

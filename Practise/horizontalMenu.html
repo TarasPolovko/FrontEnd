@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practise</title>
+	<style>	
+		.navigation {
+    		list-style: none; /* прячем маркеры */
+		}
+
+		.navigation li {
+		    float: left; /* выстраиваем элементы списка в один ряд */
+		    margin-right: 15px; /* делаем отступ чтобы пункты меню не сливались */
+		}
+
+		.navigation li a {
+		    display: block; /* меняем отображение на блок, чтобы иметь возможность задавать внутренние отступы */
+		    padding: 3px 5px;
+		    background: #ccc;
+		    color: #000;
+		    /*position: relative;*/
+		}
+
+		.navigation li a:hover {
+		    background: #999;
+		    color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<ul class="navigation">
+	    <li><a href="#">Главная</a></li>
+	    <li><a href="#">HTML и CSS приемы</a></li>
+	    <li><a href="#">Обучение</a></li>
+	    <li><a href="#">HTML справочник</a></li>
+	</ul>
+</body>
