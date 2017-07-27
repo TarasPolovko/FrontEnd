@@ -1,0 +1,216 @@
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+body {
+	background: url("../img/UI/background.jpg") no-repeat top;
+	background-size: cover;
+	background-position: fixed;
+	font-family: "Helvetica Neue", Tahoma, Arial, sans-serif;
+	font-size: 14px;
+}
+
+.clear_fix:after {
+	content: '';
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+/* HEADER */
+
+.header {
+	background-color: #074885;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+
+.menu, 
+.registration_menu {
+	color: #60b5ed;
+	text-decoration: none;
+	font-size: 0px;;
+}
+
+.menu li,
+.registration_menu li {
+	display: inline-block;
+	font-size: 14px;
+}
+
+.menu li:last-child {
+	border: 1px solid;
+	border-style: none solid none none;
+}
+
+.menu li a,
+.registration_menu li a {
+	display: block;
+	line-height: 36px;
+	padding: 0px 10px;
+}
+
+.menu li a:hover,
+.registration_menu li a:hover {
+	background-color: #4eabda;
+	color: #fff;
+}
+
+.registration_menu li:first-child {
+	color: white;
+} 
+
+.registration_menu li:last-child {
+	background-color: #4eabda;
+	color: #fff;
+	padding-left: 10px;
+} 
+
+.registration_menu li:last-child a {
+	display: inline;
+	text-decoration: underline;
+}
+
+.registration_menu img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* CONTENT*/
+
+.content {
+	display: flex;
+	height: 950px;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.fb_login {
+	box-sizing: border-box;
+	height: 105px;
+	padding-top: 35px;
+}
+
+.fb_login img:hover {
+	box-shadow: 0px 0px 5px 3px rgba(255,255,255,0.5);
+	border-radius: 5px;
+}
+
+.registration {
+	width: 500px;
+	text-align: center;
+}
+
+.registration h1 {
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	font-size: 24px;
+	line-height: 62px;
+	margin-bottom: 2px;
+}
+
+.registration fieldset {
+	border-color: #999999;
+	width: 276px;
+	margin: auto;
+}
+
+.registration fieldset p {
+	color: #999999;
+	padding: 0px 5px;
+}
+
+.registration fieldset p:before,
+.registration fieldset p:after {
+	background-color: #999999;
+	box-shadow: 0px 1px 0px 0px black;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	margin: 0px 5px;
+	vertical-align: middle;
+	width: 110px;
+}
+
+.registration fieldset dl dd {
+	padding: 5px 0px 
+}
+
+.registration fieldset dl dd:first-child {
+	padding-top: 35px;
+}
+
+.registration fieldset dl dd:nth-child(n+6) {
+	padding: 10px 0px;
+}
+
+.registration [type="text"],
+.registration [type="password"] {
+	background-color: #100f0f;
+	border-color: #484948;
+	border-style: none none solid none;
+	border-width: 1px;
+	box-sizing: border-box;
+	color: #cccccc;
+	height: 35px;
+	padding-left: 20px;
+	width: 100%;
+}
+
+.registration [type="checkbox"] {
+	vertical-align: middle;
+}
+
+.registration [for="subscribe"] {
+	/*background-color: red;*/
+	color: #cccccc;
+	vertical-align: middle;
+}
+
+.registration input::placeholder {
+	color: #cccccc;
+	font-family: "Helvetica Neue", Tahoma, Arial, sans-serif;
+	/*padding-left: 20px;*/
+}
+
+.registration [type="text"]:focus,
+.registration [type="password"]:focus {
+	outline: none;
+	border-bottom: 1px solid #689bcc;
+	box-shadow: 0px 0px 5px 3px #2f7bc5, inset 2px 2px 5px 0px rgba(29,26,22,0.2); 
+	background-color: #1b5288;
+}
+
+.registration [type="submit"] {
+	background: linear-gradient(#4faddb, #2e7ac4);
+	border-color: #67c6e6;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 2px 0px 0px;
+	color: #fff;
+	height: 35px;
+	font-size: 14px;
+	width: 150px;
+}
+
+.terms_agreement {
+	color: #cccccc;
+	font-size: 11px;
+	margin: auto;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	width: 60%;
+}
