@@ -1,0 +1,1094 @@
+body {
+	font-family: Arial;
+}
+
+.wrapper {
+	margin: auto;
+	width: 1000px;
+}
+
+.clear_fix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* HEADER*/
+.visitor_panel {
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.contacts {
+	display: inline-block;
+	font-size: normal;
+	line-height: normal;
+}
+
+.contacts img {
+	margin-left: 5px;
+	margin-top: 9px;
+}
+
+.contacts a {
+	color: #5e696d;
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-top: 10px;
+	margin-right: 2px;
+	vertical-align: top;
+}
+
+.login_form {
+	background: linear-gradient(#206988, #114165 60%, #0c3256);
+	border-width: 1px; 
+	border-style: solid none;
+	border-top-color: #a6c3cf;
+	border-bottom-color: #7d92a5;	
+	border-radius: 3px;
+	box-shadow: 2px 3px 3px 0px rgba(150,150,150,0.75);
+	display: inline-block;
+	font-size: normal;
+	line-height: normal;
+	height: 25px;
+	margin-left: 13px;
+    margin-top: 4px;
+	vertical-align: top;
+	width: 495px;
+}
+
+.login_form form {
+	padding-top: 3px;
+}
+
+.login_form form img {
+	vertical-align: top;
+	margin-left: 7px;
+	margin-top: 1px;
+}
+
+.login_form form [type="text"],
+.login_form form [type="password"] {
+	border: 1px solid #9ba1a3;
+	border-radius: 1px;
+	box-shadow: inset 0px 0px 0px 1px #d0d3d4;
+	box-sizing: border-box;
+	font-family: "Lucida Sans Unicode";
+	height: 18px;
+	padding: 0px 0px 3px 4px;
+	margin-left: 3px;
+    margin-right: 3px;
+	vertical-align: top;
+	width: 115px;
+}
+
+.login_form form [type="text"]::placeholder,
+.login_form form [type="password"]::placeholder {
+	color: #97a2a8;
+	font-size: 11px;
+}
+
+.login_form form [type="submit"] {
+	background: none;
+	border: none;
+	color: #fff;
+	font-family: "Lucida Sans Unicode";
+	font-size: 11px;
+	vertical-align: top;
+	letter-spacing: -0.25px;
+    margin-left: 5px;
+    margin-top: 1px;
+    padding: 0px;
+}
+
+.login_form form span {
+	color: #fff;
+	display: inline-block;
+	font-size: 11px;
+	letter-spacing: 0px;
+	line-height: normal;
+	margin-left: 4px;
+    margin-top: 3px;
+    vertical-align: top;
+}
+
+.login_form form [name="registration"] {
+    margin-left: 3px;
+}
+
+.login_form form a {
+	color: #bfbfbf;
+	display: inline-block;
+	font-family: "Lucida Sans Unicode";
+	font-size: 12px;
+	text-decoration: underline;
+	margin-left: 21px;
+	/*margin-top: 0px;*/
+	vertical-align: top;
+}
+
+.quick_menu_container {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	margin-top: 6px;
+    margin-left: 17px;
+}
+
+.quick_menu {
+	background-color: #fff;
+	border: 1px solid #bdc4c7;
+	border-radius: 10px;
+	height: 19px;
+	position: relative;
+	width: 74px;
+	z-index: 2;
+}
+
+.quick_menu img:first-child {
+	margin-top: 2px;
+	margin-left: 8px;
+}
+
+.quick_menu img:nth-child(2) {
+	margin-top: 2px;
+	margin-left: 8px;
+}
+
+.quick_menu img:last-child {
+	margin-top: 2px;
+	margin-left: 9px;
+}
+
+.shadow {
+	background-color: #bcc3c6;
+	border-radius: 10px;
+	filter: blur(1px);
+	height: 21px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 76px;
+	transform: rotate(3deg);
+	z-index: 1;
+}
+
+.logo_picture {
+	margin-top: 10px;
+	margin-left: -1px;
+}
+
+.navigation_panel {
+	background: linear-gradient(#576068, #2a2e32 17%, #000);
+	border: 1px solid #0d1642;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75); 
+	height: 33px;
+	width: 910px;
+	margin-left: -3px;
+	margin-top: 3px;
+}
+
+.menu {
+	display: inline-block;
+	margin-left: 125px;
+	vertical-align: top;
+}
+
+.menu li {
+	display: inline-block;
+	margin-top: 3px;
+}
+
+.menu li a{
+	color: #b1bcc0;
+	display: block;
+	font-size: 14px;
+	font-family: "Lucida Sans Unicode";
+	letter-spacing: -0.2px;
+	line-height: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu li:first-child a {
+	padding: 2px 18px 0px 22px;
+}
+
+.menu li:nth-child(2) a {
+	padding: 2px 11px 0px 11px;
+}
+
+.menu li:nth-child(3) a {
+	padding: 2px 15px 0px 15px;
+}
+
+.menu li:nth-child(4) a {
+	padding: 2px 10px 0px 10px;
+}
+
+.menu li:last-child a {
+	padding: 2px 11px 0px 11px;
+}
+
+
+.menu li a:hover {
+	background: linear-gradient(#206988, #114165 60%, #0c3256);
+	border-radius: 13px;
+	color: #fff;
+}
+
+.menu li:first-child a:hover {
+	padding: 2px 18px 0px 22px;
+}
+
+.menu li:nth-child(2) a:hover {
+	padding: 2px 11px 0px 11px;
+}
+
+.menu li:nth-child(3) a:hover {
+	padding: 2px 15px 0px 15px;
+}
+
+.menu li:nth-child(4) a:hover {
+	padding: 2px 10px 0px 10px;
+}
+
+.menu li:last-child a:hover {
+	padding: 2px 11px 0px 11px;
+}
+
+.shopping_panel {
+	display: inline-block;
+	font-family: Arial;
+	font-size: 0px;
+	line-height: 0px;
+	margin-left: 56px;
+	vertical-align: top;
+
+}
+
+.shopping_panel img {
+	margin-top: 7px;
+}
+
+.shopping_panel div {
+	display: inline-block;
+	vertical-align: top;
+	line-height: normal;
+} 
+.shopping_panel div span {
+	color: #929b9f;
+	display: inline-block;
+	font-size: 11px;
+	margin-left: 7px;
+	margin-top: 9px;
+	margin-right: 1px;
+	letter-spacing: 0.5px;
+	vertical-align: top;
+}
+
+.shopping_panel a {
+	color: #0d5a8f;
+	display: inline-block;
+	font-size: 12px;
+	text-decoration: none;
+	vertical-align: top;
+	letter-spacing: 0.5px;
+	margin-top: 9px;
+	margin-right: 7px;
+}
+
+.shopping_panel div:last-child a {
+	margin-left: 9px;
+} 
+
+/* SEARCH FILTER*/
+.filter_panel {
+	display: flex;
+}
+
+/* Set parameters for all filter containers */
+[name="search_by_cars"],
+[name="search_tires"],
+[name="search_disks"]  {
+	background-color: #fff;
+	border: 1px solid #9c9c9d;
+	border-radius: 18px;
+	box-shadow: 3px 3px 3px 0px rgba(104,104,104,0.5);
+	font-family: Arial;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+/* Set parameters for all legends*/
+[name="search_by_cars"] legend span,
+[name="search_tires"] legend span,
+[name="search_disks"] legend span {
+	color: #154467;
+	display: inline-block;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+	line-height: normal;
+	vertical-align: top;
+}
+
+/* SEARCH 
+	BY 
+	CARS */
+
+[name="search_by_cars"] {
+	height: 133px;
+	margin-left: 2px;
+    margin-top: 11px;
+	width: 413px;
+}
+
+[name="search_by_cars"] legend span:first-child {
+	font-size: 10px;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+
+[name="search_by_cars"] legend span:nth-child(2) {
+	font-size: 12px;
+	letter-spacing: 0.3px;
+	line-height: 11px;
+	margin-left: 64px;
+	margin-top: 1px;
+}
+
+[name="search_by_cars"] legend span:last-child {
+	font-size: 10px;
+	margin-left: 72px;
+	margin-top: 0px;
+}
+
+/* Make to colums */
+[name="search_by_cars"] div{
+	float: left;
+}
+
+[name="search_by_cars"] label span {
+	display: inline-block;
+}
+
+[for="disks_by_car_brand"],
+[for="disks_by_car_model"],
+[for="disks_by_car_year"],
+[for="disks_by_car_complete_set"],
+[for="tires_by_car_brand"],
+[for="tires_by_car_model"],
+[for="tires_by_car_year"],
+[for="tires_by_car_complete_set"] {
+	display: inline-block;
+	font-size: 10px;
+	line-height: 0px;
+	margin-left: 18px;
+	min-height: 17px;
+	vertical-align: top;
+	width: 75px;
+}
+
+[for="tires_by_car_brand"],
+[for="tires_by_car_model"],
+[for="tires_by_car_year"],
+[for="tires_by_car_complete_set"] {
+	margin-left: 29px;
+}
+
+[name="search_by_cars"] label span:first-child,
+[for="disks_by_car_complete_set"],
+[for="tires_by_car_complete_set"] {
+	color: #000;
+	line-height: 10px;
+}
+
+[name="search_by_cars"] label span:last-child {
+	color: #77858b;
+	font-size: 9px;
+	letter-spacing: 0.3px;
+	line-height: 9px;
+}
+
+[for="disks_by_car_brand"] span,
+[for="tires_by_car_brand"] span {
+	margin-top: 11px;
+}
+
+[for="disks_by_car_model"] span:first-child,
+[for="tires_by_car_model"] span:first-child {
+	margin-top: 5px;
+	letter-spacing: 0.3px;
+	line-height: 8px;
+}
+
+[for="disks_by_car_year"] span:first-child,
+[for="tires_by_car_year"] span:first-child {
+	letter-spacing: 0.4px;
+	margin-top: 3px;
+}
+
+[for="disks_by_car_complete_set"],
+[for="tires_by_car_complete_set"] {
+	letter-spacing: 0.3px;
+	margin-top: 7px;
+}
+
+[name="search_by_cars"] select,
+[name="search_tires"] select,
+[name="search_disks"] select {
+	border: none;
+	box-shadow: inset 2px 2px 1px 0px rgba(0,0,0,0.5);
+	height: 17px;
+	vertical-align: top;
+	width: 101px;
+}   
+
+[name="search_by_cars"] p:first-child select{
+	margin-top: 5px;
+}
+
+[name="search_by_cars"] p:nth-child(2) select{
+	margin-top: 5px;
+}
+
+[name="search_by_cars"] p:nth-child(3) select{
+	width: 58px;
+	height: 17px;
+	margin-top: 2px;
+}
+
+[name="search_by_cars"] p:last-child select{
+	margin-top: 2px;
+}
+
+[name="search_by_cars"] [name="search"],
+[name="search_tires"] [name="search"],
+[name="search_disks"] [name="search"] {
+	background: none;
+	border: none;
+	clear: both;
+	color: #154467;
+	display: block;
+	font-family: Arial;
+	font-size: 14px;
+	font-style: italic;
+	float: right;
+	padding: 0px;
+	margin-right: 20px;
+	letter-spacing: 0.2px;  
+	text-decoration: underline;
+}
+
+[name="search_tires"] {
+	height: 134px;
+	margin-left: 14px;
+    margin-top: 10px;
+	width: 191px;
+}
+
+[name="search_tires"] legend span{
+	color: #114165;
+	font-size: 12px;
+	margin-left: 10px;
+    letter-spacing: 0.1px;
+}
+
+[name="search_tires"] label,
+[name="search_tires"] div>p>span {
+	display: inline-block;
+	font-size: 10px;
+	line-height: 10px;
+	min-height: 17px;
+	vertical-align: top;
+	width: 40px;
+	margin-left: 13px;
+}
+
+[for="tire_size_p1"] {
+	margin-top: 13px;
+	letter-spacing: 0px;
+}
+
+[for="tire_radius"] span {
+	display: inline-block;
+	font-size: 11px;
+	margin-left: 32px;
+	margin-top: 3px;
+}
+
+[name="search_tires"] div:nth-child(4)>span {
+	display: inline-block;
+	font-size: 10px;
+	line-height: 10px;
+	padding-top: 5px;
+	vertical-align: top;
+	margin-left: 15px;
+}
+	
+[name="search_tires"] select {
+	height: 17px;
+	width: 52px;
+}
+
+[id="tire_size_p1"] {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+[name="search_tires"] div p span.slash {
+	font-size: 14px;
+	line-height: 14px;
+	width: 5px;
+	margin-left: 5px;
+	margin-top: 8px;
+	min-height: auto;
+}
+
+[id="tire_size_p2"] {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+[name="search_tires"] [id="tire_radius"] {
+	width: 45px;	
+	margin-left: 5px;
+	margin-top: -2px;
+}
+
+[name="search-tires"] [type="checkbox"] {
+	border: none;
+	padding-left: 10px;
+}
+
+[name="search_tires"] div:nth-child(4)>div {
+	display: inline-block;
+	margin-left: 13px;
+	margin-top: 7px;
+}
+
+[name="search_tires"] div:nth-child(4)>label {
+	display: inline-block;
+	margin: 0px;
+}
+
+[name="search_tires"] [for="summer"],
+[name="search_tires"] [for="winter"], 
+[name="search_tires"] [for="all"]  {
+	font-size: 12px;
+	min-height: 12px;
+	margin-left: 0;
+} 
+
+[name="search_tires"] [for="winter"], 
+[name="search_tires"] [for="all"] {
+	margin-top: 1px;
+} 
+
+[name="search_tires"] [type="checkbox"] {
+	padding: 0px;
+	margin: 0px;
+} 
+
+[name="search_tires"] [id="winter"] {
+	margin-top: 1px;
+} 
+
+[name="search_tires"] [name="search"] {
+	line-height: 14px;
+	margin-right: 17px;
+	margin-top: -2px;
+	letter-spacing: 0.2px;  
+	text-decoration: underline;
+}
+
+
+/* SEARCH
+	DISK*/
+
+[name="search_disks"] {
+	height: 135px;
+	margin-left: 10px;
+    margin-top: 9px;
+	width: 267px;
+}
+
+/* Set parameters for filter title */
+[name="search_disks"] legend span {
+	font-size: 12px;
+	font-weight: 900;
+	letter-spacing: 0.9px;
+	margin-left: 9px;
+}
+
+/* Make 2 colums */
+[name="search_disks"] fieldset>div {
+	float: left;
+}
+
+/* Set margin-left for first column*/
+[name="search_disks"] fieldset>div:nth-child(2) {
+	margin-left: 16px; 
+}  
+
+/* Set margin-left for second column*/
+[name="search_disks"] fieldset>div:nth-child(3) {
+	border-width: 1px;
+	border-style: none;
+	border-left-style: solid;
+	margin-left: 11px; 
+	margin-top: -12px;
+	padding-left: 11px;
+} 
+
+/* Set parameters for select elements*/
+[name="search_disks"] select {
+	height: 17px;
+	width: 58px;
+} 
+
+[name="search_disks"] [id="disk_holes_number"] {
+	height: 17px;
+	width: 52px;
+} 
+
+/* Set parameters for labels*/
+[name="search_disks"] label {
+	display: inline-block;
+	width: 90px;
+}
+
+/* Change width for labels in the second column*/
+[name="search_disks"] fieldset>div:nth-child(3) label {
+	width: 70px;
+} 
+
+/* Set parametrs for spans*/
+[name="search_disks"] label span {
+	display: inline-block;
+	line-height: normal;
+}
+
+/* Set parametrs for the first span in label*/
+[name="search_disks"] label span:first-child {
+	font-size: 10px;
+	font-weight: 700;
+}
+
+/* Set parametrs for the second span in label*/
+[name="search_disks"] label span:last-child {
+	color: #77858b;
+	font-size: 9px;
+}
+
+/* The first span in the disk diametr label*/
+[for="disk_diameter"] span:first-child {
+	letter-spacing: 0.9px;
+	margin-top: 6px;
+}
+
+/* The second span in the disk diametr label*/
+[for="disk_diameter"] span:last-child {
+	letter-spacing: 0.9px;
+	margin-left: 5px;
+	margin-top: 3px;
+}
+
+/* The first span in the disk holes number label*/
+[for="disk_holes_number"] span:first-child {
+	letter-spacing: 0.4px;
+	margin-top: 2px;
+}
+
+/* The second span in the disk holes number label*/
+[for="disk_holes_number"] span:last-child {
+	letter-spacing: 1px;
+	margin-top: -1px;
+}
+
+/* The first span in the disk holes number label*/
+[for="disk_holes_position"] span:first-child {
+	letter-spacing: 0.8px;
+}
+
+/* The second span in the disk holes number label*/
+[for="disk_holes_position"] span:last-child {
+	letter-spacing: 1.1px;
+}
+
+/* Disk diameter selector*/
+[id="disk_diameter"] {
+	margin-top: 4px;
+}
+
+/* Disk holes number selector*/
+[id="disk_holes_number"] {
+	margin-top: 15px;
+}
+
+/* Disk holes position selector*/
+[id="disk_holes_position"] {
+	margin-top: 14px;
+}
+
+/* The second span in the disk holes number label*/
+[for="disk_holes_diameter"] span:last-child {
+	letter-spacing: 0.5px;
+	line-height: 7px;
+}
+
+/* Disk holes diameter selector*/
+[id="disk_holes_diameter"] {
+	margin-top: 6px;
+}
+
+/* The first span in the disk holes et label*/
+[for="disk_holes_et"] span:first-child {
+	margin-top: 6px;
+	margin-left: -1px;
+}
+
+/* The second span in the disk holes et label*/
+[for="disk_holes_et"] span:last-child {
+	line-height: 8px;
+	letter-spacing: 0.1px;
+}
+
+/* Disk holes et selector*/
+[id="disk_holes_et"] {
+	margin-top: 3px;
+}
+
+/* Submit button*/
+[name="search_disks"] [name="search"] {
+	line-height: 14px;
+	margin-right: 18px;
+	margin-top: 0px;
+	letter-spacing: 0.2px;  
+	text-decoration: underline;
+}
+
+/* 
+	CONTENT
+*/
+
+.content {
+	display: flex;
+	margin-top: 10px;
+}
+
+/* General classes for two colums (products catalog and brands catalog)*/
+
+.catalog_title,
+.catalog_subtitle {
+	border: 1px solid #79878d;
+	border-radius: 13px;
+}
+
+.catalog_title {
+	box-shadow: 3px 3px 3px 0px rgba(150,150,150,0.75);
+	height: 25px;
+	width: 181px;
+}
+
+.catalog_subtitle {
+	font-size: 0px;
+	height: 25px;
+	padding-left: 4px;
+	padding-top: 2px;
+	width: 144px;
+}
+
+.catalog_title h1,
+.catalog_subtitle h2 {
+	color: #114165;
+	display: inline-block;
+	font-family: "Lucida Sans Unicode";
+	text-transform: uppercase;
+	vertical-align: top;
+}
+
+.catalog_title h1 {
+	font-size: 13px;
+}
+
+.catalog_subtitle h2 {
+	font-size: 14px;
+}
+
+.ui_circle {
+	align-items: center;
+	background-image: linear-gradient(#206988, #114165, #0c3256);
+	border-radius: 100%;
+	display: flex;
+	float: left;
+	height: 21px;
+	justify-content: center;
+	width: 21px;
+}
+
+.ui_circle_02 {
+	background-color: #fff;
+	box-shadow: inset 0px 0px 0px 5px #114165;
+	border-radius: 100%;
+	display: inline-block;
+	height: 22px;
+	width: 22px;
+}
+
+.catalog_title .ui_circle {
+	margin-left: 3px;
+	margin-top: 1px;
+}
+
+.catalog_title .ui_circle img {
+	margin-bottom: 2px;
+	margin-left: 1px;
+}
+
+.catalog ul,
+.catalog form {
+	color: #465961;
+	font-family: "Lucida Sans Unicode";
+	font-size: 13px;
+	box-sizing: border-box;
+}
+
+/* Products catalog column */
+.products_catalog ul {
+	margin-left: 51px;
+	height: 99px;
+	padding-top: 6px;
+	list-style-type: circle; 
+}
+
+.products_catalog ul li {
+	height: 20px;
+	margin-bottom: 6px;
+}
+
+.products_catalog ul li a {
+	color: #465961;
+	letter-spacing: -0.1px;
+	margin-left: -6px;
+	text-decoration: none;
+}
+
+.products_catalog ul li:hover a{
+	font-weight: bold;
+	text-decoration: underline;
+	letter-spacing: 0.2px;
+}
+
+.products_catalog_title {
+	margin-bottom: 11px;
+	margin-left: -4px;
+	margin-top: 9px;
+}
+
+.products_catalog_title h1 {
+	letter-spacing: -0.2px;
+	margin-left: 5px;
+	margin-top: 7px;
+}
+
+.products_catalog_subtitle h2 {
+	padding-left: 2px;
+	padding-top: 6px;
+}
+
+/* GOODS */
+
+.goods {
+	background-image: linear-gradient(rgba(201, 207, 209, 0.5), rgba(35,75,93,0.5));
+	border-radius: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	height: 628px;
+	width: 527px;
+	margin-left: 10px;
+	margin-top: 4px;
+}
+
+.goods_item {
+	text-align: center;
+	width: 138px;
+	margin: 16px 8px 10px 22px;
+}
+
+.goods_item h1 {
+	color: #206988;
+	font-family: "Lucida Sans Unicode";
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.goods_item h2 {
+	color: #1f2528;
+	font-family: "Lucida Sans Unicode";
+	font-size: 13px;
+}
+
+.goods_item .price {
+	color: #114165;
+	font-family: "Arial";
+	font-weight: bold;
+	font-style: italic;
+	margin-left: 15px;
+	margin-top: 4px;
+	letter-spacing: 1px;
+}
+
+.goods_item .price span:first-child {
+	font-size: 16px;	
+	letter-spacing: 0px;
+}
+
+.goods_item .price span:last-child {
+	font-size: 12px;
+}
+
+.goods_item_picture {
+	align-items: center;
+	background-color: #fff;
+	border: 1px solid #a4aeb1;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	height: 127px;
+	width: 138px;
+}
+
+/* Right column*/
+
+.brands_catalog {
+	margin-left: 9px;
+	margin-top: 6px;
+}
+
+.brands_catalog form {
+	margin-bottom: 11px;
+	margin-left: 20px;
+	padding-top: 5px;
+}
+
+.brands_catalog form p {
+	margin-bottom: 6px;
+}
+
+.brands_catalog form label {
+	display: inline-block;
+	margin-left: 3px;
+	margin-top: 3px;
+	vertical-align: top;
+}
+
+.brands_catalog_title {
+	margin-bottom: 13px;
+	margin-left: -1px;
+	margin-top: 1px;
+}
+
+.brands_catalog_subtitle {
+	/*margin-bottom: 11px;*/
+	margin-left: 14px;
+	width: 130px;
+}
+
+.brands_catalog_title h1 {
+	letter-spacing: 0.5px;
+	margin-left: 7px;
+	margin-top: 5px;
+}
+
+.brands_catalog_subtitle h2 {
+	padding-left: 4px;
+	padding-top: 6px;
+}
+
+input[name="brands_submit"] {
+	background-image: linear-gradient(#206988, #114165, #0c3256);
+	border: 1px solid #a7abae;
+	border-radius: 12px;
+	box-shadow: 1px 3px 3px 0px #e5e9ea;
+	color: #e5e9ea;
+	font-size: 11px;
+	height: 27px;
+	letter-spacing: 0.7px;
+	margin-left: 3px;
+	margin-top: 13px;
+	padding-bottom: 4px;
+	text-transform: uppercase;
+	width: 82px;
+}
+
+/*
+	FOOTER
+*/
+footer {
+	
+	margin-top: 38px;
+	width: 908px;
+}
+
+.brands_logo {
+	padding-left: 115px;
+	margin-bottom: 22px;
+}
+
+.picture {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 9px;
+}
+
+.short_menu {
+	background-color: #213a4d;
+	height: 100px;
+	padding-top: 12px;
+	text-align: center;
+}
+
+.short_menu ul {
+	font-family: Arial;
+	font-size: 0px;
+	margin-bottom: 16px;
+	margin-left: -2px
+}
+
+.short_menu ul li {
+	border: 2px none;
+	border-color: #bec6c9;
+	border-right-style: solid;
+	display: inline-block;
+}
+
+.short_menu ul li:last-child {
+	border-right: none;
+}
+
+.short_menu ul li a {
+	color: #bec6c9;
+	display: inline-block;
+	font-size: 12px;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	padding: 0px 10px;
+}
+
+.short_menu ul li a:hover {
+	color: #52abcb;
+}
+
+.copyright {
+	color: #7f4740;
+	font-size: 10px;
+	letter-spacing: 0.3px;
+}
