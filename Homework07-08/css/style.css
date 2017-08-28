@@ -38,7 +38,6 @@ body {
 	background-image: url('../img/background.jpg');
 	background-position: center top;
 	background-repeat: no-repeat;
-
 }
 
 header {
@@ -116,18 +115,6 @@ footer {
 	position: relative;
 }
 
-.slider_button_back {
-	top: 50%;
-	left: 10%;
-	position: absolute;
-}
-
-.slider_button_next {
-	top: 50%;
-	right: 10%;
-	position: absolute;
-}
-
 .slider__content {
 	width: 520px;
 	float: left;
@@ -183,7 +170,7 @@ footer {
 }
 
 .slider__picture__iphone_clone {
-	height: 260	px;
+	height: 260px;
 	position: absolute;
 	filter: blur(3px);
 	top: 68px;
@@ -344,7 +331,6 @@ footer {
 	font-weight: 300;
 	line-height: 24px;
 	padding: 9px 43px 58px 41px;
-	word-wrap: break-all;
 	width: 346px;
 	height: 161px;
 	-moz-hyphens: auto;
@@ -601,16 +587,6 @@ footer {
 
 	.slider {
 		width:100%;
-	}
-	
-	.slider_button_back {
-		top: 46%;
-		left: -1%;
-	}
-
-	.slider_button_next {
-		top: 46%;
-		right: -1%;
 	}
 
 	.slider__content {
@@ -917,16 +893,6 @@ footer {
 		height: 246px;
 	}
 
-	.slider_button_back {
-		top: 46%;
-		left: 0.5%;
-	}
-
-	.slider_button_next {
-		top: 46%;
-		right: 0.5%;
-	}
-
 	.slider__content {
 		margin: 93px 0 0 31px;
 		width: 203px;
@@ -1173,16 +1139,6 @@ footer {
 		display: none;
 	}
 
-	.slider_button_back {
-		top: 43%;
-		left: 1%;
-	}
-
-	.slider_button_next {
-		top: 43%;
-		right: 1%;
-	}
-
 	.slider_slider {
 		position: static;
 		margin: auto;
@@ -1249,7 +1205,7 @@ footer {
 	}
 
 	.recent__updates__post {
-		margin-bottom: 1\8px;
+		margin-bottom: 18px;
 	}
 
 	/* PARTNERS*/
