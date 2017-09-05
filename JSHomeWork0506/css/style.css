@@ -1,0 +1,27 @@
+.timer {
+	width: 500px;
+	margin-top: 50px;
+}
+
+.timer_clock span {
+	font-size: 48px;
+}
+
+.timer_clock {
+	padding-left: 95px;
+}
+
+.timer_buttons {
+	margin-bottom: 10px;
+}
+
+.time_split {
+	color: white;
+	font-size: 24px;
+}
+
+.time_split div{
+	margin-top: 2px;
+	background-color: gray;
+	padding-right: 165px;
+}
