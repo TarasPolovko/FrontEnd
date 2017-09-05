@@ -1,0 +1,10 @@
+.tabs {
+	width: 500px;
+	margin-top: 50px;
+}
+
+#tab01, 
+#tab02,
+#tab03 {
+	display: none;
+}

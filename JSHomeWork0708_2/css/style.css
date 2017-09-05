@@ -1,0 +1,26 @@
+.basic-form {
+	width: 500px;
+	margin-top: 20px;
+}
+
+.form-group {
+	position: relative;
+}
+
+.tip {
+	color: #fff;
+	background-color: #269abc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	display: none;
+	font-size: 12px;
+	/*opacity: 0;*/
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.tip p {
+	margin-top: 5px;
+	line-height: 16px;
+}
