@@ -1,0 +1,24 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.panel {
+	background-color: #edf5e1;
+	border-top: solid 2px #c4df9b;
+	box-sizing: border-box;
+	padding: 15px 20px;
+	position: relative;
+	margin: auto;
+	width: 500px;
+}
+
+.panel__title {
+	padding-bottom: 10px;
+}
+
+.panel__close-btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}

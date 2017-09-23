@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #eee;
+}
+
+.menu {
+	margin: auto;
+	margin-top: 100px;
+	width: 600px;
+	list-style: none;
+}
+
+.menu__item {
+	display: inline-block;
+	position: relative;
+}
+
+.menu__link {
+	background-image: url(button.gif) ;
+	box-sizing: border-box;
+	color: #fff;
+	display: block;
+	font-family: sans-serif;
+	height: 36px;
+	padding: 10px;
+	padding-left: 15px;
+	text-decoration: none;
+	width: 164px;
+}
+
+.menu__tip {
+	background: url(hover.png) no-repeat;
+	box-sizing: border-box;
+	display: none;
+	font: 75%/120% Arial, Helvetica, sans-serif;
+	font-style: normal;
+	height: 76px;
+ 	left: -50px;
+	margin: auto;
+	padding: 10px 0;
+	position: absolute;
+ 	right: -50px;
+	text-align: center;
+	top: -85px;
+	width: 200px;
+}

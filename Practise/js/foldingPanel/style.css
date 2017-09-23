@@ -1,0 +1,70 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	font: 75%/120% Arial, Helvetica, sans-serif;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;	
+	width: 500px;
+}
+
+.panel {
+	list-style: none;
+}
+
+.clear_fix:after {
+	display: block;
+	content: "";
+	clear: both;
+	visibility: hidden;
+}
+
+.massage {
+	background: linear-gradient(#eee, #fff);
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	margin-top: -20px;
+	padding-bottom: 20px;
+	position: relative;
+	z-index: 3;
+}
+
+.massage__head {
+	cursor: pointer;
+	padding: 5px 10px;
+}
+
+.massage__author {
+	font-weight: bold;
+	font-style: normal;
+	float: left;
+}
+
+.massage__time {
+	color: #666;
+	float: right;
+}
+
+.massage__body {
+	display: none;
+	padding: 5px 10px;
+}
+
+.massage__greeting {
+	margin-bottom: 10px;
+}
+
+.quick_operations {
+	text-align: right;
+}
+
+#showOnlyFive {
+	display: none;
+}
+
+#showOnlyFiveIcon {
+	display: none;
+/*}*/
