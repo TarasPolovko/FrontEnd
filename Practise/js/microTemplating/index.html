@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Template</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="tmpl.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<script type="text/template" id="test">
+		<% for (var i = 0; i < data.length; i++) { %>
+			<h1><%= data[i].title %></h1>
+			<p><% print(data[i].content); %></p>
+		<% }; %>
+	</script>
+</body>
+</html>

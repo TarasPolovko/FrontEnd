@@ -1,0 +1,140 @@
+.carousel-wrapper {
+	margin: auto;
+	margin-top: 50px;
+	padding: 5px;
+	position: relative;
+	width: 720px;
+}
+
+.carousel-hider {
+	background-color: rgb(200, 200, 200);
+	border-radius: 10px;
+	margin: auto;
+	overflow: hidden;
+	padding: 10px;
+	width: 575px;
+}
+
+.carousel {
+	font-size: 0px;
+	width: 10000px;
+	position: relative;
+}
+
+.carousel__item {
+	display: inline-block;
+	padding-right: 25px;
+	text-align: center;
+}
+
+.carousel__image {
+	max-width: 125px;
+	max-height: 125px;
+}
+
+.carousel__description {
+	font-size: 12px;
+}
+
+.carousel-previous, 
+.carousel-next {
+	background-color: rgb(150, 175, 230);
+	border-radius: 50%;
+	height: 50px;
+	position: absolute;
+	width: 50px;
+	top: 60px;
+}
+
+.carousel-previous {
+	left: 5px;
+}
+
+.carousel-next {
+	right: 5px;
+}
+
+.carousel-previous::after, 
+.carousel-next::after {
+	border-radius: 3px;
+	border-bottom: 15px solid transparent;
+	border-top: 15px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	width: 0;
+	
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0px;
+	right: 0;
+	margin: auto;
+}
+
+.carousel-previous::after {
+	border-right: 15px solid rgb(230, 230, 230);
+	right: 5px;
+}
+
+.carousel-next::after {
+	border-left: 15px solid rgb(230, 230, 230);
+	left: 5px;
+}
+
+.carousel-previous:hover::after {
+	border-right-color: rgb(240,230,140);
+}
+
+.carousel-next:hover::after {
+	border-left-color: rgb(240,230,140);
+}
+
+.carousel-indicators {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.carousel-indicator {
+	background-color: rgba(200, 200, 200, 0.7);
+	border-radius: 50%;
+	display: inline-block;
+	height: 20px;
+	margin-right: 5px;
+	width: 20px;
+}
+
+.active {
+	background-color: rgb(150, 175, 230);
+}
+
+.profile-wrapper {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.profile {
+	border-radius: 10px;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 5px;
+	width: 180px;
+	vertical-align: top;
+}
+
+.profile:nth-child(even) {
+	background-color: rgb(200, 200, 200);
+}
+
+.profile:nth-child(odd) {
+	background-color: rgb(170, 170, 170);
+}
+
+.profile__avatar {
+	max-width: 150px;
+}
+
+.profile__info {
+	padding: 5px 10px;
+	font-family: sans-serif;
+}

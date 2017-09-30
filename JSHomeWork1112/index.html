@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My own carousel</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="js/jquery.carousel.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="carousel-wrapper">
+		<div class="carousel-previous" id="buttonPrevious"></div>
+		<div class="carousel-hider">
+			<ul class="carousel" id="carousel">
+				<li class="carousel__item">
+					<img src="img/pic1.png" alt="blink emoji" class="carousel__image">
+					<p class="carousel__description">Blink emoji</p>
+				</li>
+				<li class="carousel__item">
+					<img src="img/pic2.png" alt="loud laughter emoji" class="carousel__image">
+					<p class="carousel__description">Loud laughter</p>
+				</li>
+				<li class="carousel__item">
+					<img src="img/pic3.png" alt="sad emoji" class="carousel__image">
+					<p class="carousel__description">Sad emoji</p>
+				</li>
+				<li class="carousel__item">
+					<img src="img/pic4.png" alt="happy emoji" class="carousel__image">
+					<p class="carousel__description">Happy emoji</p>
+				</li>
+				<li class="carousel__item">
+					<img src="img/pic5.png" alt="crying sad emoji" class="carousel__image">
+					<p class="carousel__description">Crying sad emoji</p>
+				</li>
+				<li class="carousel__item">
+					<img src="img/pic6.png" alt="love kiss emoji" class="carousel__image">
+					<p class="carousel__description">Love kiss emoji</p>
+				</li>
+				<li class="carousel__item">
+					<img src="img/pic7.png" alt="angry emoji" class="carousel__image">
+					<p class="carousel__description">Angry emoji</p>
+				</li>
+				<li class="carousel__item">
+					<img src="img/pic8.png" alt="oops emoji" class="carousel__image">
+					<p class="carousel__description">Oops emoji</p>
+				</li>
+				<li class="carousel__item">
+					<img src="img/pic9.png" alt="crying sad emoji 2" class="carousel__image">
+					<p class="carousel__description">Crying sad emoji 2</p>
+				</li>
+				<li class="carousel__item">
+					<img src="img/pic10.png" alt="satisfied emoji" class="carousel__image">
+					<p class="carousel__description">Satisfied emoji</p>
+				</li>
+				<li class="carousel__item">
+					<img src="img/pic11.png" alt="sad emoji 2" class="carousel__image">
+					<p class="carousel__description">Sad emoji 2</p>
+				</li>
+				<li class="carousel__item">
+					<img src="img/pic12.png" alt="tricky emoji" class="carousel__image">
+					<p class="carousel__description">Tricky emoji</p>
+				</li>
+			</ul>
+		</div>
+		<div class="carousel-indicators" id="carouselIndicators"></div>
+		<div class="carousel-next" id="buttonNext"></div>
+	</div>
+
+	<script type="text/template" id="profiles">
+		<div class="profile-wrapper">
+			<% for (var i = 0; i < users.length; i++) { %>
+				<div class="profile">
+					<img class="profile__avatar" src="img<%= users[i].avatar %>">
+					<div class="profile__info">
+						<span><%= users[i].name %></span>
+						<span><%= users[i].surname %></span>
+						<p>AGE: <%= users[i].age %></p>
+						<p>ABOUT: <%= users[i].about %></p>
+					</div>
+				</div>
+			<% }; %>
+		</div>
+	</script>
+
+	<script type="text/template" id="profiles2">
+		<div class="profile-wrapper">
+			<% for (var i = 0; i < users2.length; i++) { %>
+				<div class="profile">
+					<img class="profile__avatar" src="img<%= users2[i].avatar %>">
+					<div class="profile__info">
+						<span><%= users2[i].name %></span>
+						<span><%= users2[i].surname%></span>
+						<p>AGE: <%= users2[i].age %></p>
+						<p>ABOUT: <%= users2[i].about %></p>
+					</div>
+				</div>
+			<% }; %>
+		</div>
+	</script>
+		
+</body>
+</html>
