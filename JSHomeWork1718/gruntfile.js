@@ -42,6 +42,12 @@ module.exports = function(grunt) {
           'css/dist/style.main.min.css': ['css/dist/style.main.min.css']
         }
       }
+    },
+    watch: {
+      scripts: {
+        files: ['js/source/*.js', 'css/source/*.css'],
+        tasks: ['concat', 'uglify', 'concat_css', 'cssmin']
+      }
     }
   });
 
@@ -50,9 +56,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-concat-css');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
-  grunt.registerTask('default', ['concat', 'uglify', 'concat_css', 'csmin']);
+  grunt.registerTask('default', ['concat', 'uglify', 'concat_css', 'cssmin']);
   grunt.registerTask('js', ['concat', 'uglify']);
   grunt.registerTask('css', ['concat_css', 'cssmin']);
+  grunt.registerTask('see', ['watch']);
 };
