@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url($fonts-dir + 'Ubuntu-L.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url($fonts-dir + 'Ubuntu-M.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url($fonts-dir + 'Ubuntu-B.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Ubuntu Condensend';
+  src: url($fonts-dir + 'Ubuntu-C.ttf');
+}

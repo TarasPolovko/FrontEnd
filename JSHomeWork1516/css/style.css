@@ -123,7 +123,6 @@ body {
 
 .search-field[type=text]:focus.search-field::placeholder {
 	visibility: hidden;
-	content: "HELLO";
 }
 
 .search-field[type=text] {

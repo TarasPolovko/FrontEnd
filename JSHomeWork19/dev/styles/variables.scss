@@ -1,0 +1,30 @@
+$img-dir: "../img/";
+$fonts-dir: "../fonts/";
+$basic-wrapper-width: 1200px;
+
+@mixin light-text {
+	font: {
+		family: Ubuntu;
+		weight: 400; 
+	}
+}
+
+@mixin medium-text {
+	font: {
+		family: Ubuntu;
+		weight: 600; 
+	}
+}
+
+@mixin bold-text {
+	font: {
+		family: Ubuntu;
+		weight: 900; 
+	}
+}
+
+@mixin ubuntu-c {
+	font: {
+		family: "Ubuntu Condensend"; 
+	}
+}
