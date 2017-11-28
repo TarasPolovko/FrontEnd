@@ -54,31 +54,31 @@ JS
     </li>
     <li>
         <h3>JSHomework02: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork02/index.html">Find a name in the list</a></h3>
-        <p>Find the name in the list of 5 names.</p>
+        <p>Find the name in the list of 5 names. Using arrays.</p>
     </li>
     <li>
-        <h3>Homework0304: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork0304/index.html">Test</a></h3>
+        <h3>JsHomework0304: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork0304/index.html">Test</a></h3>
         <p>First experience of <b>generating DOM via javascript</b> code.</p>
     </li>
     <li>
-        <h3>Homework0506: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork0506/index.html">Stopwatch</a></h3>
-        <p><b>Stopwatch</b> with "Start", "Split" and "Clear" functions</p> 
+        <h3>JSHomework0506: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork0506/index.html">Stopwatch</a></h3>
+        <p><b>Stopwatch</b> with "Start", "Split" and "Clear" functions.</p> 
     </li>
     <li>
-        <h3>Homework04 (Bonus Task): <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework04%20(Bonus)/index.html">ASIA-HOLIDAYS</a></h3
-            <p>Another way of using <b>float</b> to make three columns web-page</p> 
+        <h3>JSHomework07: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork07/index.html">Tabs</a></h3
+        <p>Hiding and showing tabs via javascript.</p> 
     </li>
     <li>
-        <h3>Homework05: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework05/index.html">Cadastre</a></h3>
-        <p>First nice-looking web-page</p>
+        <h3>JSHomework08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork08/index.html"Form</a></h3>
+        <p>Form where tip is shown when the field is hover <b>(using animation in javascript)</b>.</p>
     </li>
     <li>
-        <h3>Homework05 (Bonus Task): <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework05%20(Bonus)/index.html">Table</a></h3>
-        <p>Creating a table as in the old time. Using tags "table", "tr", "td".</p>
+        <h3>JSHomework09: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework09/index.html">Carousel</a></h3>
+        <p>Carousel as <b>jQuery plugin</b></p>
     </li>
     <li>
-        <h3>Homework06: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework06/index.html">Razor</a></h3>
-        <p>First <b>pixel perfect</b> web-page</p> 
+        <h3>JSHomework10: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework10/index.html">Multy drop-down menu</a></h3>
+        <p>Creating mutly drop-down menu using jQuery and animation.</p> 
     </li>
     <li>
         <h3>Homework07-08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework07-08/index.html">PingBuller</a></h3>
