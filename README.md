@@ -93,11 +93,11 @@ JS
         <p>Nice locking web site. <b>Carousel, jQuery, BEM, SCSS</b></p> 
     </li>
     <li>
-        <h3>JSHomework20: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1314/index.html">Lodash</a></h3>
+        <h3>JSHomework20: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork20/index.html">Lodash</a></h3>
         <p>Using <b>Lodash</b> in first time to get elements from JSON</p> 
     </li>
      <li>
-        <h3>JSHomework21: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1314/index.html">MVC. TO-DO List</a></h3>
+        <h3>JSHomework2324: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork2324/index.html">MVC. TO-DO List</a></h3>
         <p>Creating web-page using <b>MVC</b> in first time. User can delete and edit an element from the list. Also the user can add the new element.</p> 
     </li>
 </ul>
