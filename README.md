@@ -35,11 +35,11 @@ It's test repository
         <p>First <b>pixel perfect</b> web-page</p> 
     </li>
     <li>
-        <h3>Homework07-08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework07-08/index.html">Razor</a></h3>
+        <h3>Homework07-08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework07-08/index.html">PingBuller</a></h3>
         <p>Pixel perfect, external fonts, responsive design.</p> 
     </li>
     <li>
-        <h3>Homework08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework08/index.html">Razor</a></h3>
+        <h3>Homework08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework09/index.html">PingBuller (Bootstrap)</a></h3>
         <p>The same as the previous web page, but creating with Bootstrap</p> 
     </li>
 </ul>
