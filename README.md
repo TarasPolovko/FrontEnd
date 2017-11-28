@@ -8,7 +8,9 @@ It's test repository
     <li>
         <h3>Homework03: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework03/index.html">Fitness</a></h3>
     </li>
-    <li></li>
+    <li>
+        <h3>Homework03: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework03%20(Bonus)/index.html">ASIA-HOLIDAYS</a></h3>
+    </li>
     <li></li>
     <li></li>
 </ul>
