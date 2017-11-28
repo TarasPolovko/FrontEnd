@@ -1,6 +1,39 @@
 # FrontEnd
 
-HTML and CSS 
+<h2>Best of HomeWork:</h2>
+
+<ul>
+    <li>
+        <h3>JSHomework19: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork19/index.html">Build Home</a></h3>
+        <p>Nice locking web site. <b>Carousel, jQuery, BEM, SCSS</b></p> 
+    </li>
+    <li>
+        <h3>JSHomework2324: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork2324/index.html">MVC. TO-DO List</a></h3>
+        <p>Creating web-page using <b>MVC</b> in first time. User can delete and edit an element from the list. Also the user can add the new element.</p> 
+    </li>
+    <li>
+        <h3>JSHomework0506: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork0506/index.html">Stopwatch</a></h3>
+        <p><b>Stopwatch</b> with "Start", "Split" and "Clear" functions.</p> 
+    </li>
+        <li>
+        <h3>JSHomework11-12: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1112/index.html">My own carousel</a></h3>
+        <p>Caruousel made by myself without using plugins. </p> 
+    </li>
+    <li>
+        <h3>Homework07-08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework07-08/index.html">PingBuller</a></h3>
+        <p>Pixel perfect, external fonts, responsive design.</p> 
+    </li>
+    <li>
+        <h3>Homework06: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework06/index.html">Zazor</a></h3>
+        <p>First <b>pixel perfect</b> web-page</p> 
+    </li>
+    <li>
+        <h3>Homework05: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework05/index.html">Cadastre</a></h3>
+        <p>First nice-looking web-page</p>
+    </li>
+</ul>
+
+<h2>HTML and CSS</h2> 
 
 <ul >
     <li>
@@ -45,7 +78,7 @@ HTML and CSS
     </li>
 </ul>
 
-JS
+<h2> JavaScript </h2>
 
 <ul >
     <li>
@@ -92,7 +125,7 @@ JS
         <h3>JSHomework20: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork20/index.html">Lodash</a></h3>
         <p>Using <b>Lodash</b> in first time to get elements from JSON</p> 
     </li>
-     <li>
+    <li>
         <h3>JSHomework2324: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork2324/index.html">MVC. TO-DO List</a></h3>
         <p>Creating web-page using <b>MVC</b> in first time. User can delete and edit an element from the list. Also the user can add the new element.</p> 
     </li>
