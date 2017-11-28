@@ -71,16 +71,5 @@ $(function() {
             el.css("background-position", '0 -17px');
         }
     }
-
-    $(".drop-down").hover(
-        function(el) {
-            $(this).children(".submenu").stop().animate({"height":"toggle"}, "medium");
-        },
-        function() {
-            $(this).children(".submenu").stop().animate({"height":"toggle"}, "medium");
-        }
-    );
-
-
 });
 

@@ -1,0 +1,45 @@
+.select-box {
+	margin: auto;
+	width: 600px;
+}
+
+.clear-fix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.checkbox {
+	background-image: url("../img/checkbox-sprite.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: inline-block;
+	height: 17px;
+	width: 17px;
+}
+
+.checkbox input {
+	display: none;
+}
+
+.nice-checkbox {
+	background-image: url("../img/checkbox-sprite.png");
+	cursor: pointer;
+	display: inline-block;
+	height: 17px;
+	overflow: hidden;
+	width: 17px;
+}
+
+.nice-checkbox input {
+	margin-left: -100px;
+}
+
+.nice-checkbox-checked {
+	background-position: 0 -17px;
+}
+
+.nice-checkbox-disabled {
+	background-image: url("../img/checkbox-disabled.png");
+}
