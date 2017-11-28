@@ -8,19 +8,19 @@ It's test repository
     </li>
     <li>
         <h3>Homework03: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework03/index.html">Fitness</a></h3>
-        <p>Using __reset.css__ in first time</p>
+        <p>Using <b>reset.css</b> in first time</p>
     </li>
     <li>
         <h3>Homework03 (Bonus Task): <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework03%20(Bonus)/index.html">ASIA-HOLIDAYS</a></h3>
-        <p>Using **flex** in first time</p>
+        <p>Using <b>flex</b> in first time</p>
     </li>
     <li>
         <h3>Homework04: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework04/index.html">ASIA-HOLIDAYS</a></h3>
-        <p>Using **float** to make three columns web-page</p> 
+        <p>Using <b>float</b> to make three columns web-page</p> 
     </li>
     <li>
         <h3>Homework04 (Bonus Task): <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework04%20(Bonus)/index.html">ASIA-HOLIDAYS</a></h3
-        <p>Another way of using **float** to make three columns web-page</p> 
+            <p>Another way of using <b>float</b> to make three columns web-page</p> 
     </li>
     <li>
         <h3>Homework05: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework05/index.html">Cadastre</a></h3>
@@ -32,7 +32,7 @@ It's test repository
     </li>
     <li>
         <h3>Homework06: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework06/index.html">Razor</a></h3>
-        <p>First **pixel perfect** web-page</p> 
+        <p>First <b>pixel perfect</b> web-page</p> 
     </li>
     <li>
         <h3>Homework07-08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework07-08/index.html">PingBuller</a></h3>
@@ -40,7 +40,7 @@ It's test repository
     </li>
     <li>
         <h3>Homework09: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework09/index.html">PingBuller (Bootstrap)</a></h3>
-        <p>The same as the previous web page, but creating with **Bootstrap**</p> 
+        <p>The same as the previous web page, but creating with <b>Bootstrap</b></p> 
     </li>
 </ul>
 
