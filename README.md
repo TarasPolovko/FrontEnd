@@ -8,7 +8,7 @@ It's test repository
     </li>
     <li>
         <h3>Homework03: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework03/index.html">Fitness</a></h3>
-        <p>Using **reset.css** in first time</p>
+        <p>Using __reset.css__ in first time</p>
     </li>
     <li>
         <h3>Homework03 (Bonus Task): <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework03%20(Bonus)/index.html">ASIA-HOLIDAYS</a></h3>
