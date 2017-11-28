@@ -16,11 +16,11 @@ HTML and CSS
         <p>Using <b>flex</b> in first time</p>
     </li>
     <li>
-        <h3>Homework04: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework04/index.html">ASIA-HOLIDAYS</a></h3>
+        <h3>Homework04: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework04/index.html">ASIA-HOLIDAYS (Version 2)</a></h3>
         <p>Using <b>float</b> to make three columns web-page</p> 
     </li>
     <li>
-        <h3>Homework04 (Bonus Task): <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework04%20(Bonus)/index.html">ASIA-HOLIDAYS</a></h3
+        <h3>Homework04 (Bonus Task): <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework04%20(Bonus)/index.html">ASIA-HOLIDAYS (Version 2)</a></h3
             <p>Another way of using <b>float</b> to make three columns web-page</p> 
     </li>
     <li>
