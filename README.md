@@ -32,7 +32,7 @@ HTML and CSS
         <p>Creating a table as in the old time. Using tags "table", "tr", "td".</p>
     </li>
     <li>
-        <h3>Homework06: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework06/index.html">Razor</a></h3>
+        <h3>Homework06: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework06/index.html">Zazor</a></h3>
         <p>First <b>pixel perfect</b> web-page</p> 
     </li>
     <li>
