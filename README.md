@@ -73,11 +73,11 @@ JS
         <p>Form where tip is shown when the field is hover <b>(using animation in javascript)</b>.</p>
     </li>
     <li>
-        <h3>JSHomework09: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework09/index.html">Carousel</a></h3>
+        <h3>JSHomework09: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork09/index.html">Carousel</a></h3>
         <p>Carousel as <b>jQuery plugin</b></p>
     </li>
     <li>
-        <h3>JSHomework10: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework10/index.html">Multy drop-down menu</a></h3>
+        <h3>JSHomework10: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork10/index.html">Multy drop-down menu</a></h3>
         <p>Creating mutly drop-down menu using jQuery and animation.</p> 
     </li>
     <li>
