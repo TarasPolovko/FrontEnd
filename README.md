@@ -81,7 +81,7 @@ JS
         <p>Creating mutly drop-down menu using jQuery and animation.</p> 
     </li>
     <li>
-        <h3>JSHomework11-12: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework1112/index.html">My own carousel</a></h3>
+        <h3>JSHomework11-12: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1112/index.html">My own carousel</a></h3>
         <p>Caruousel made by myself without using plugins. </p> 
     </li>
     <li>
