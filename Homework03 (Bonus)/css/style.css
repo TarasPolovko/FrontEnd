@@ -2,7 +2,10 @@ html {
 }
 
 body {
-	background: black url("../img/UI/background.png") no-repeat top;
+	background-image: url("../img/UI/background.png");
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: top;
 	color: rgb(230, 230, 230);
 	font-size: 12px;
   	font-family: "Tahoma";
