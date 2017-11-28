@@ -81,12 +81,12 @@ JS
         <p>Creating mutly drop-down menu using jQuery and animation.</p> 
     </li>
     <li>
-        <h3>Homework07-08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework07-08/index.html">PingBuller</a></h3>
-        <p>Pixel perfect, external fonts, responsive design.</p> 
+        <h3>JSHomework11-12: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework1112/index.html">My own carousel</a></h3>
+        <p>Caruousel made by myself without using plugins. </p> 
     </li>
     <li>
-        <h3>Homework09: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework09/index.html">PingBuller (Bootstrap)</a></h3>
-        <p>The same as the previous web page, but creating with <b>Bootstrap</b></p> 
+        <h3>JSHomework1314: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1314/index.html">Test</a></h3>
+        <p>The same as the previous test, but has full functionality: show the result depends on the correct answers. Using <b>Local Storage</b> in first time</b></p> 
     </li>
 </ul>
 
