@@ -1,7 +1,7 @@
 # FrontEnd
 It's test repository
 
-<ul>
+<ul style="color:red;">
     <li>
         <h3>Homework01: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/HomeWork01/index.html">"About me" page</a></h3>
         <p>First simple web-page</p>
