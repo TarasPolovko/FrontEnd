@@ -3,8 +3,8 @@ It's test repository
 
 <ul >
     <li>
-        <h3 style="color:red;">Homework01: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/HomeWork01/index.html">"About me" page</a></h3>
-        <p>First simple web-page</p>
+        <h3>Homework01: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/HomeWork01/index.html">"About me" page</a></h3>
+        <br>First simple web-page</br>
     </li>
     <li>
         <h3>Homework03: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework03/index.html">Fitness</a></h3>
