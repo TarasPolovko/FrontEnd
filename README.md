@@ -89,12 +89,16 @@ JS
         <p>The same as the previous test, but has full functionality: show the result depends on the correct answers. Using <b>Local Storage</b> in first time</b></p> 
     </li>
     <li>
-        <h3>JSHomework19: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1314/index.html">Test</a></h3>
-        <p>The same as the previous test, but has full functionality: show the result depends on the correct answers. Using <b>Local Storage</b> in first time</b></p> 
+        <h3>JSHomework19: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork19/index.html">Build Home</a></h3>
+        <p>Nice locking web site. <b>Carousel, jQuery, BEM, SCSS</b></p> 
     </li>
     <li>
-        <h3>JSHomework1314: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1314/index.html">Test</a></h3>
-        <p>The same as the previous test, but has full functionality: show the result depends on the correct answers. Using <b>Local Storage</b> in first time</b></p> 
+        <h3>JSHomework20: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1314/index.html">Lodash</a></h3>
+        <p>Using <b>Lodash</b> in first time to get elements from JSON</p> 
+    </li>
+     <li>
+        <h3>JSHomework21: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1314/index.html">MVC. TO-DO List</a></h3>
+        <p>Creating web-page using <b>MVC</b> in first time. User can delete and edit an element from the list. Also the user can add the new element.</p> 
     </li>
 </ul>
 
