@@ -88,6 +88,14 @@ JS
         <h3>JSHomework1314: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1314/index.html">Test</a></h3>
         <p>The same as the previous test, but has full functionality: show the result depends on the correct answers. Using <b>Local Storage</b> in first time</b></p> 
     </li>
+    <li>
+        <h3>JSHomework19: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1314/index.html">Test</a></h3>
+        <p>The same as the previous test, but has full functionality: show the result depends on the correct answers. Using <b>Local Storage</b> in first time</b></p> 
+    </li>
+    <li>
+        <h3>JSHomework1314: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork1314/index.html">Test</a></h3>
+        <p>The same as the previous test, but has full functionality: show the result depends on the correct answers. Using <b>Local Storage</b> in first time</b></p> 
+    </li>
 </ul>
 
 
