@@ -39,7 +39,7 @@ It's test repository
         <p>Pixel perfect, external fonts, responsive design.</p> 
     </li>
     <li>
-        <h3>Homework08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework09/index.html">PingBuller (Bootstrap)</a></h3>
+        <h3>Homework09: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/Homework09/index.html">PingBuller (Bootstrap)</a></h3>
         <p>The same as the previous web page, but creating with Bootstrap</p> 
     </li>
 </ul>
