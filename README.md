@@ -69,7 +69,7 @@ JS
         <p>Hiding and showing tabs via javascript.</p> 
     </li>
     <li>
-        <h3>JSHomework08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork08/index.html"Form</a></h3>
+        <h3>JSHomework08: <a href="http://htmlpreview.github.io/?https://github.com/TarasPolovko/FrontEnd/blob/master/JSHomeWork08/index.html">Form</a></h3>
         <p>Form where tip is shown when the field is hover <b>(using animation in javascript)</b>.</p>
     </li>
     <li>
