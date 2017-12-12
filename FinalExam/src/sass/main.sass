@@ -1,0 +1,326 @@
+@import 'reset'
+@import 'fonts'
+
+body
+	background-color: #fff
+
+.clear-fix::after
+	display: block
+	content: ''
+	clear: both
+	overflow: hidden
+
+// HEADER
+.top-wrapper
+	background: url('../img/banerPic.jpg') no-repeat center top
+	background-size: cover
+	height: 700px
+	width: 100%
+
+.top
+	margin: auto
+	max-width: 940px
+	padding-top: 20px
+	width: auto
+	text-align: center
+
+.brand
+	cursor: pointer
+	font-family: 'Montserrat'
+	font-size: 20px
+	font-weight: bold
+	float: left
+	text-transform: uppercase
+
+.brand-white	
+	color: #fff
+
+.login
+	float: right
+
+.link
+	color: #fff
+	display: inline-block
+	font-family: 'Montserrat'
+	font-size: 14px
+	font-weight: bold
+	text-decoration: none
+	margin-left: 15px
+
+.link-white
+	border: 2px solid #fff
+	border-radius: 16px
+	box-sizing: border-box
+	line-height: 32px
+	width: 90px
+	padding: 0 15px
+	text-align: center
+
+.link:hover, .brand:hover
+	color: rgb(255, 255, 100)
+	border-color: rgb(255, 255, 100)
+
+.title
+	color: #fff
+	font-family: 'Montserrat'
+	font-size: 52px
+	font-weight: bold
+	text-transform: uppercase
+
+.title-top
+	display: inline-block
+	width: 490px
+	margin-top: 150px
+
+.subtitle
+	color: #fff
+	font-family: 'Roboto-Light'
+	font-size: 24px
+	margin-top: 45px;
+
+.link-red
+	background-color: #ff4e50
+	line-height: 40px;
+	margin-top: 35px
+	padding: 0 20px
+	border-radius: 20px
+
+.middle
+	text-align: center
+	max-width: 940px
+	margin: auto
+
+.title-middle
+	color: #333333
+	font-size: 22px
+	margin-top: 100px
+	margin-bottom: 40px
+	flex-basis: 100%
+
+.tutorial
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+	align-items: flex-start
+
+@for $i from 1 through 3
+	.tutorial-step:nth-of-type(#{$i})
+		background: url('../img/tutorialPic0#{$i}.jpg') no-repeat 
+
+.tutorial-step
+	background-size: cover 
+	border-radius: 5px
+	box-sizing: border-box
+	display: flex
+	flex-direction: column
+	justify-content: flex-end
+	align-items: flex-start
+	height: 400px
+	width: 300px
+	margin-right: 15px
+	padding: 20px
+	text-align: left
+	position: relative
+
+.tutorial-step:last-of-type
+	margin-right: 0
+
+.tutorial-step::before
+	background: linear-gradient(0, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1) 70%) 
+	border-radius: 5px
+	content: ''
+	display: block
+	height: 400px
+	width: 300px
+	position: absolute
+	top: 0
+	left: 0
+	z-index: 1
+
+.tutorial-step__counter
+	background-color: #ff4e50
+	border-radius: 10px
+	color: #fff
+	display: inline-block
+	font-family: 'Montserrat'
+	font-size: 10px
+	line-height: 20px
+	padding: 0 15px
+	margin-bottom: 18px
+	position: relative
+	z-index: 2
+
+.tutorial-step__counter::before
+	content: 'step '
+	text-transform: uppercase 		
+
+.tutorial-step__title
+	color: #fff
+	font-family: 'Montserrat'
+	font-weight: bold
+	font-size: 24px
+	line-height: 28px
+	position: relative
+	z-index: 2
+
+.tutorial-step__description
+	color: #ccc
+	display: inline-block
+	font-family: 'Roboto-Light'
+	vertical-align: bottom
+	margin-top: 18px
+	position: relative
+	z-index: 2
+
+.partners
+	text-align: center
+
+.partners-person
+	display: inline-block
+	width: 220px
+	margin-right: 10px
+	vertical-align: top
+
+.partners-person:last-of-type
+	margin-right: 0
+
+.partners-person__avatar
+	border-radius: 60px
+	height: 120px
+	margin: auto
+	width: 120px
+	position: relative
+
+@for $i from 1 through 4
+	.partners-person:nth-of-type(#{$i}) .partners-person__avatar
+		background: url('../img/partnerPic0#{$i}.jpg') no-repeat
+		
+.partners-person__avatar::after
+		background: url('../img/partnersIcons.png') no-repeat
+		border: 3px solid #fff
+		border-radius: 21px
+		box-shadow: 0 0 0 1px #fff inset
+		box-sizing: border-box
+		bottom: 0
+		content: ''
+		display: block
+		height: 38px
+		position: absolute
+		right: 0
+		width: 38px
+
+@for $i from 1 through 4 
+	.partners-person:nth-of-type(#{$i}) .partners-person__avatar::after
+		background-position: 32-$i*32 + px
+
+.partners-person__name
+	color: #333
+	font-family: 'Montserrat'
+	font-weight: bold
+	font-size: 14px
+	margin-top: 25px
+
+.partners-person__about
+	color: #666
+	font-family: 'Roboto-Light'
+	font-size: 14px
+	margin-top: 20px
+
+.link-red-borders
+	border: 2px solid red
+	border-radius: 20px
+	color: red
+	display: inline-block
+	line-height: 40px
+	padding: 0 30px
+	margin-top: 40px
+
+.link-red-borders:hover, .brand-red:hover
+	color: rgb(50, 150, 50)
+	border-color: rgb(50, 150, 50)
+
+.search__description
+	color: #333
+	font-family: 'Roboto-Light'
+
+.search__form
+	padding-top: 40px
+	
+.search__field
+	border: 1px solid #ccc
+	border-radius: 5px
+	box-shadow: 0 1px 0 0 #eee
+	color: #999
+	font-famile: 'Roboto-Light'
+	height: 40px
+	padding: 0 15px
+	width: 240px
+
+.search__submit
+	border: none
+	cursor: pointer
+	padding: 0 25px
+	margin: 0
+	margin-left: 10px
+
+.bottom-wrapper
+	border-top: 4px solid #ff4e50
+	margin-top: 100px
+	padding:
+		bottom: 40px
+		top: 35px
+
+.bottom
+	max-width: 940px
+	margin: auto
+
+.brand-red
+	color: #ff4e50
+	display: inline-block
+	float: none
+	font-size: 16px
+	vertical-align: top
+	margin-right: 100px
+
+.menu
+	display: inline-block
+	vertical-align: top
+
+.menu__section
+	display: inline-block
+	vertical-align: top
+	margin-right: 90px
+
+.menu__section-title
+	color: #333
+	font-family: 'Montserrat'
+	font-weight: bold
+	font-size: 14px
+	margin-bottom: 15px
+
+.menu__link
+	color: #666
+	display: inline-block
+	font-family: 'Roboto-Light'
+	font-size: 14px
+	text-decoration: none
+	margin-bottom: 12px
+
+.menu__link:hover
+	font-weight: bold
+
+.design-author
+	cursor: pointer
+	display: inline-block
+	vertical-align: top
+	float: right
+
+.design-author__text
+	color: #ccc
+	font-family: 'Montserrat'
+	font-weight: bold
+	font-size: 10px
+	text-align: right
+	margin-bottom: 10px 
+
+

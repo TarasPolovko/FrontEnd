@@ -13,7 +13,7 @@ var gulp 		 = require('gulp'),
 
 gulp.task('sass', function() {
 	return gulp.src('src/sass/**/*.+(sass|scss)')
-	.pipe(sass())
+	.pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
 	.pipe(autoprefixer(
 		[
 		'last 15 versions',

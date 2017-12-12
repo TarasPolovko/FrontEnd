@@ -1,0 +1,66 @@
+$fonts-src: '../fonts'
+@mixin font($name, $name-origin, $weight, $style)
+	font-family: '#{$name}'
+	font-weight: $weight
+	font-style: $style
+	src: url('#{$fonts-src}/' + '#{$name-origin}/' + '#{$name-origin}' + '.eot'),
+	url('#{$fonts-src}/' + '#{$name-origin}/' + '#{$name-origin}' + '.eot#iefix') format('embedded-opentype'),
+	url('#{$fonts-src}/' + '#{$name-origin}/' + '#{$name-origin}' + '.ttf') format('truetype'),
+	url('#{$fonts-src}/' + '#{$name-origin}/' + '#{$name-origin}' + '.woff') format('woff'),
+	url('#{$fonts-src}/' + '#{$name-origin}/' + '#{$name-origin}' + '.woff2') format('woff2')
+
+@font-face
+	@include font('Roboto', 'Roboto-Regular', normal, normal)
+	src: local('Roboto-Regular'), local('Roboto Regular'), local('RobotoRegular')
+
+@font-face
+	src: local('Roboto-Black'), local('Roboto Black'), local('RobotoBlack')
+	@include font('Roboto-Black', 'Roboto-Black', normal, normal)
+
+@font-face
+	src: local('Roboto-BlackItalic'), local('Roboto BlackItalic'), local('RobotoBlackItalic')
+	@include font('Roboto-Black', 'Roboto-BlackItalic', normal, italic)
+
+@font-face
+	src: local('Roboto-Bold'), local('Roboto Bold'), local('RobotoBold')
+	@include font('Roboto', 'Roboto-Bold', bold, normal)
+
+@font-face
+	src: local('Roboto-Italic'), local('Roboto Italic'), local('RobotoItalic')
+	@include font('Roboto', 'Roboto-Italic', normal, italic)
+
+@font-face
+	src: local('Roboto-BoldItalic'), local('Roboto BoldItalic'), local('RobotoBoldItalic')
+	@include font('Roboto', 'Roboto-BoldItalic', bold, italic)
+
+@font-face
+	src: local('Roboto-Light'), local('Roboto Light'), local('RobotoLight')
+	@include font('Roboto-Light', 'Roboto-Light', normal, normal)
+
+@font-face
+	src: local('Roboto-LightItalic'), local('Roboto LightItalic'), local('RobotoLightItalic')
+	@include font('Roboto-Light', 'Roboto-LightItalic', normal, italic)
+
+@font-face
+	src: local('Roboto-Medium'), local('Roboto Medium'), local('RobotoMedium')
+	@include font('Roboto-Medium', 'Roboto-Medium', normal, normal)
+
+@font-face
+	src: local('Roboto-MediumItalic'), local('Roboto MediumItalic'), local('RobotoMediumItalic')
+	@include font('Roboto-Medium', 'Roboto-MediumItalic', normal, italic)
+
+@font-face
+	src: local('Roboto-Thin'), local('Roboto Thin'), local('RobotoThin')
+	@include font('Roboto-Thin', 'Roboto-Thin', normal, normal)
+
+@font-face
+	src: local('Roboto-ThinItalic'), local('Roboto ThinItalic'), local('RobotoThinItalic')
+	@include font('Roboto-Thin', 'Roboto-ThinItalic', normal, italic)
+
+@font-face
+	src: local('Montserrat-Bold'), local('Montserrat Bold'), local('MontserratBold')
+	@include font('Montserrat', 'Montserrat-Bold', bold, normal)
+
+@font-face
+	src: local('Montserrat-Regular'), local('Montserrat Regular'), local('MontserratRegular')
+	@include font('Montserrat', 'Montserrat-Regular', normal, normal)

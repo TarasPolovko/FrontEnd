@@ -1,0 +1,13 @@
+body {
+  font-size: 22px; }
+
+body {
+  background-color: green;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: all 1s;
+      -ms-transform: all 1s;
+          transform: all 1s;
+  padding: 10px; }

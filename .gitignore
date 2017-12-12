@@ -1,9 +1,5 @@
 # ignore node vodules
 node_modules
 
-#ignore sourse folders
-app
-src
-
 #ignore bower
 .bowerrc
